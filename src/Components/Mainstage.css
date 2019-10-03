@@ -1,0 +1,11 @@
+.mainstage {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 15px;
+	justify-content: center;
+	margin: 15px;
+	box-shadow: 2.5px 2px 1px;
+	border-radius: 4px;
+	background: linear-gradient(0.25turn, #1c1c1b, #ebf8e1, #1c1c1b);
+}
+

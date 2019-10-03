@@ -1,0 +1,61 @@
+.teams {
+	font-weight: bold;
+}
+
+.teams:hover {
+	cursor: pointer;
+	font-weight: none;
+	font-style: italic;
+	color: red;
+}
+
+.table {
+	display: flex;
+	flex-wrap: wrap; 
+	flex-direction: row;
+	align-items: flex-start;
+	width: auto;
+	height: 120px;
+    margin: 15px;
+    margin-bottom: 10px;
+    border: 0px;
+}
+
+.proto {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 15px;
+	box-shadow: 2.5px 2px 1px;
+	border-radius: 4px;
+	background-color: rgb(178,34,34);
+}
+
+.button {
+	height: 60px;
+    width: fit-content;
+    align-self: center;
+    font-size: 40px;
+    font-family: Times New Roman;
+    font-weight: 600;
+    font-variant: small-caps;
+    padding: 5px 35px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 2px 3px 1px;
+    background-color: limegreen;
+    transition: transform 1s;
+}
+
+.button:hover {
+	transform: scale(1.05);
+	cursor: pointer;
+}
+
+.headline {
+	text-align: center;
+	color: white;
+	font-family: Tahoma;
+	font-variant: small-caps;
+	text-decoration: underline;
+}

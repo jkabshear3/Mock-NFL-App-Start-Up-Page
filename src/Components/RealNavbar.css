@@ -1,0 +1,30 @@
+.dog {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+    height: auto;
+    margin: 18px;
+    margin-top: 0px;
+    padding: 2px;
+    width: fit-content;
+    background-color: transparent;
+}
+
+.hex {
+	font-size: 30px;
+	font-variant: small-caps;
+	font-family: "Tahoma";
+	font-style: italic;
+	padding: 12px 10px;
+	border: none;
+	border-left: 2px solid lightgrey;
+	border-bottom: .5px solid lightgrey;
+	border-radius: 4px;
+	margin: 8px;
+	background-color: transparent;
+}
+
+.hex:hover {
+	text-shadow: 1px 1px;
+	cursor: pointer;
+}
