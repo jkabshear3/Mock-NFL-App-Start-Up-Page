@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Mock-NFL-App-Start-Up-Page/precache-manifest.bda45fc047a684d7ba48eca09175d9a0.js"
+  "/Mock-NFL-App-Start-Up-Page/precache-manifest.27dc4789d50d039ffde512560ec4baae.js"
 );
 
 self.addEventListener('message', (event) => {
