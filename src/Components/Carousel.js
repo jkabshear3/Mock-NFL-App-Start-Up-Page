@@ -11,7 +11,7 @@ class Carousel extends React.Component {
 	render() {
 		return (
 			<div>
-				<img src={this.state.imgUrl}/>
+				<img width="800" height="420"src={this.state.imgUrl}/>
 			</div>)
 	}
 }

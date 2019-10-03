@@ -5,7 +5,7 @@ const items = [
   <div><button className="hex"value="Scores">Scores</button></div>,
   <div><button className="hex"value="Playoffs">Playoffs</button></div>,
   <div><button className="hex"value="Tickets">Tickets</button></div>,
-  <div><button className="hex"value="Charity">News</button></div>,
+  <div><button className="hex"value="Charity">Charity</button></div>,
   <div><button className="hex"value="Contact">Contact</button></div>
 ];
 const schoolBus = items.map((item) => {
